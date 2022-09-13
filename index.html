@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 100vh;
+            width: 100%;
+            background-image: url(Sound\ webpage_img/image.png);
+        }
+
+        nav {
+            display: flex;
+        }
+
+        ul {
+            color: black;
+            right: 100px;
+            position: absolute;
+        }
+
+        img {
+            position: absolute;
+            left: 100px;
+            cursor: pointer;
+        }
+
+        li {
+            display: inline-block;
+            text-align: end;
+            margin: 10px;
+        }
+
+        .content {
+            position: absolute;
+            top: 25%;
+            left: 20%;
+
+        }
+
+        .left-col h1 {
+            font-size: 90px;
+            color: antiquewhite;
+            line-height: 110px;
+            float: left;
+        }
+
+
+
+        .right-col p {
+            font-size: 18px;
+            color: #5f5f5f;
+            font-weight: 400;
+            float: left;
+        }
+
+        #icon {
+            width: 80px;
+            cursor: pointer;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <img src="Sound webpage_img/logo.png">
+            <ul>
+                <li href="#">Home</li>
+                <li href="#">About</li>
+                <li href="#">Profile</li>
+                <li href="#">Feedback</li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="left-col">
+                <h1>THE REAL SOUND</h1>
+            </div>
+            <div class="right-col">
+
+
+                <p>Click Here to listen</p>
+
+                <img src="Sound webpage_img/play.png" id="icon">
+            </div>
+
+        </div>
+        <div class="right-col">
+
+
+            <p>Click Here to listen</p>
+
+            <img src="Sound webpage_img/play.png" id="icon">
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
